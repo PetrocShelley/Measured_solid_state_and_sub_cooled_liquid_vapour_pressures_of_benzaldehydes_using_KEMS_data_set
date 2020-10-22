@@ -1,0 +1,416 @@
+ *******************************************************************************
+ ** Site#: 32691        For non-commercial use only    Version 19.179W 32BITS **
+ *******************************************************************************
+ ** Cite this program as: MOPAC2016, Version: 19.179W, James J. P. Stewart,   **
+ ** Stewart Computational Chemistry, web: HTTP://OpenMOPAC.net. Days left: 242**
+ *******************************************************************************
+ **                                                                           **
+ **                                MOPAC2016                                  **
+ **                                                                           **
+ *******************************************************************************
+
+                              PM7 CALCULATION RESULTS
+
+ *******************************************************************************
+ *  CALCULATION DONE:                                Tue Oct 29 11:43:43 2019  *
+ *  STATIC     - CALCULATE STATIC FIELD POLARIZABILITIES
+ *  T=         - A TIME OF 172800.0 SECONDS REQUESTED
+ *  DUMP=N     - RESTART FILE WRITTEN EVERY  7200.000 SECONDS
+ *  RELSCF     - DEFAULT SCF CRITERION MULTIPLIED BY 0.0100
+ *              (DEFAULT SCF CRITERION = 0.00010)
+ *******************************************************************************
+STATIC RELSCF=0.01
+ 4-hydroxybenzaldehyde2.mop
+
+  ATOM    CHEMICAL      BOND LENGTH      BOND ANGLE     TWIST ANGLE 
+ NUMBER    SYMBOL       (ANGSTROMS)      (DEGREES)       (DEGREES) 
+   (I)                     NA:I           NB:NA:I       NC:NB:NA:I       NA    NB    NC 
+     1       C          0.00000000       0.0000000       0.0000000        0     0     0
+     2       C          1.34233800  *    0.0000000       0.0000000        1     0     0
+     3       C          1.34565100  *  120.5152320  *    0.0000000        2     1     0
+     4       C          1.34586100  *  118.3511500  *   -0.0044010  *     3     2     1
+     5       C          1.34225300  *  120.5573480  *    0.0068060  *     4     3     2
+     6       C          1.34344500  *  121.5360530  *   -0.0062570  *     1     2     3
+     7       O          1.36025100  *  120.9198450  *  179.9982830  *     6     1     2
+     8       C          1.36084000  *  121.2516120  *  179.9976300  *     3     2     1
+     9       O          1.21149800  *  125.7545810  *   -0.0060560  *     8     3     2
+    10       H          1.10327200  *  119.3982980  *  179.9977890  *     1     2     3
+    11       H          1.10285800  *  117.8061810  *  179.9947060  *     2     1     6
+    12       H          1.10353600  *  121.3473710  * -179.9940390  *     4     3     2
+    13       H          1.10326000  *  119.4723580  * -179.9994580  *     5     4     3
+    14       H          0.97088700  *  109.1789630  *   -0.0882390  *     7     6     1
+    15       H          1.11604400  *  115.2736440  *  179.9958750  *     8     3     2
+ 
+
+
+          CARTESIAN COORDINATES 
+
+    NO.       ATOM           X           Y           Z
+
+     1         C          0.0000      0.0000      0.0000
+     2         C          1.3423      0.0000      0.0000
+     3         C          2.0256      1.1593      0.0000
+     4         C          1.3298      2.3113     -0.0001
+     5         C         -0.0124      2.2978     -0.0000
+     6         C         -0.7027      1.1450      0.0001
+     7         O         -2.0628      1.1304      0.0001
+     8         C          3.3863      1.1768      0.0000
+     9         O          4.1068      0.2028      0.0002
+    10         H         -0.5416     -0.9612     -0.0000
+    11         H          1.8568     -0.9755     -0.0000
+    12         H          1.8396      3.2900     -0.0002
+    13         H         -0.5649      3.2528     -0.0001
+    14         H         -2.3719      0.2100     -0.0014
+    15         H          3.8498      2.1920     -0.0000
+
+ General Reference for PM7:
+ "Optimization of Parameters for Semiempirical Methods VI: More Modifications to the 
+ NDDO Approximations and Re-optimization of Parameters", J. J. P. Stewart, J. Mol. Mod., 1:32, 19 (2013)
+ http://www.springerlink.com/openurl.asp?genre=article&id=doi:10.1007/s00894-012-1667-x
+
+           Empirical Formula: C7 H6 O2  =    15 atoms
+
+
+
+      MOLECULAR POINT GROUP   :   Cs  
+
+
+      RHF CALCULATION, NO. OF DOUBLY OCCUPIED LEVELS = 23
+
+
+          Geometry optimization using EF
+  SCF CRITERION =    0.1000E-05
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.031 TIME LEFT:  2.00D  GRAD.:   496.376 HEAT: -27.08597
+ CYCLE:     2 TIME:   0.094 TIME LEFT:  2.00D  GRAD.:   410.046 HEAT: -32.31291
+ CYCLE:     3 TIME:   0.031 TIME LEFT:  2.00D  GRAD.:   176.952 HEAT: -44.80147
+ CYCLE:     4 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    30.216 HEAT: -51.34696
+ CYCLE:     5 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    34.739 HEAT: -51.78769
+ CYCLE:     6 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    33.009 HEAT: -51.98781
+ CYCLE:     7 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    18.487 HEAT: -52.22989
+ CYCLE:     8 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     8.329 HEAT: -52.28782
+ CYCLE:     9 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     3.058 HEAT: -52.31737
+ CYCLE:    10 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     3.024 HEAT: -52.32346
+ CYCLE:    11 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     2.178 HEAT: -52.32844
+ CYCLE:    12 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.996 HEAT: -52.33016
+ CYCLE:    13 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     1.495 HEAT: -52.33036
+ CYCLE:    14 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     0.278 HEAT: -52.33050
+
+     GRADIENT =  0.27753 IS LESS THAN CUTOFF =  1.00000
+
+
+
+ -------------------------------------------------------------------------------
+ STATIC RELSCF=0.01
+ 4-hydroxybenzaldehyde2.mop
+
+
+
+     GEOMETRY OPTIMISED USING EIGENVECTOR FOLLOWING (EF).     
+     SCF FIELD WAS ACHIEVED                                   
+
+
+                              PM7 CALCULATION
+                                                       MOPAC2016 (Version: 19.179W)
+                                                       Tue Oct 29 11:43:44 2019
+                                                       No. of days remaining = 242
+
+
+
+
+          FINAL HEAT OF FORMATION =        -52.33050 KCAL/MOL =    -218.95083 KJ/MOL
+
+
+          TOTAL ENERGY            =      -1530.91614 EV
+          ELECTRONIC ENERGY       =      -6456.60381 EV  POINT GROUP:     Cs  
+          CORE-CORE REPULSION     =       4925.68767 EV
+          COSMO AREA              =        152.69 SQUARE ANGSTROMS
+          COSMO VOLUME            =        145.79 CUBIC ANGSTROMS
+
+          GRADIENT NORM           =          0.27753 = 0.07166 PER ATOM
+          IONIZATION POTENTIAL    =          9.627164 EV
+          HOMO LUMO ENERGIES (EV) =         -9.627 -0.653
+          NO. OF FILLED LEVELS    =         23
+          MOLECULAR WEIGHT        =        122.1232
+
+          MOLECULAR DIMENSIONS (Angstroms)
+
+            Atom       Atom       Distance
+            H    15    H    14     6.77075
+            H    13    H    11     4.81372
+            H    14    O     7     0.00075
+
+
+          SCF CALCULATIONS        =         18
+ 
+          WALL-CLOCK TIME         =          0.312 SECONDS
+          COMPUTATION TIME        =          0.468 SECONDS
+
+
+
+
+  ATOM    CHEMICAL      BOND LENGTH      BOND ANGLE     TWIST ANGLE 
+ NUMBER    SYMBOL       (ANGSTROMS)      (DEGREES)       (DEGREES) 
+   (I)                     NA:I           NB:NA:I       NC:NB:NA:I       NA    NB    NC 
+     1       C          0.00000000       0.0000000       0.0000000        0     0     0
+     2       C          1.39085957  *    0.0000000       0.0000000        1     0     0
+     3       C          1.39778952  *  120.3874452  *    0.0000000        2     1     0
+     4       C          1.40069617  *  120.4169999  *   -0.0011012  *     3     2     1
+     5       C          1.38603222  *  120.3221529  *   -0.0013092  *     4     3     2
+     6       C          1.39758684  *  118.0960758  *   -0.0018864  *     1     2     3
+     7       O          1.35351469  *  122.4213627  * -179.9902717  *     6     1     2
+     8       C          1.47349453  *  119.3264832  * -179.9985263  *     3     2     1
+     9       O          1.20922245  *  122.0232812  *   -0.0016733  *     8     3     2
+    10       H          1.08423471  *  120.7753282  * -179.9988631  *     1     2     3
+    11       H          1.09567756  *  120.3662988  *  179.9992884  *     2     1     6
+    12       H          1.09152762  *  119.9942248  * -179.9998046  *     4     3     2
+    13       H          1.08695061  *  122.0267742  *  179.9981746  *     5     4     3
+    14       H          0.98924292  *  112.6484397  *   -0.0573687  *     7     6     1
+    15       H          1.09857788  *  117.7413078  *  179.9981353  *     8     3     2
+
+                             CARTESIAN COORDINATES
+
+   1    C        0.000000000     0.000000000     0.000000000
+   2    C        1.390859574     0.000000000     0.000000000
+   3    C        2.097924071     1.205767526     0.000000000
+   4    C        1.414675776     2.428519150    -0.000023214
+   5    C        0.028911492     2.455770730    -0.000073791
+   6    C       -0.658195566     1.232893979     0.000040592
+   7    O       -2.007855363     1.334974456     0.000237945
+   8    C        3.571165983     1.178483974    -0.000033042
+   9    O        4.193279789     0.141568669    -0.000030394
+  10    H       -0.554773569    -0.931553109     0.000018485
+  11    H        1.944753453    -0.945362839    -0.000019384
+  12    H        1.973751941     3.365997889    -0.000026284
+  13    H       -0.529285355     3.388443187    -0.000063493
+  14    H       -2.456558113     0.453347123    -0.000567497
+  15    H        4.100448051     2.141154145    -0.000063904
+
+
+           Empirical Formula: C7 H6 O2  =    15 atoms
+
+
+
+      MOLECULAR POINT GROUP   :   Cs  
+
+
+                  EIGENVALUES  
+ -31.50259 -31.02423 -30.36389 -26.59506 -26.35692 -22.83708 -22.07697 -20.23502
+ -18.67806 -17.59981 -16.13035 -15.28537 -15.11279 -15.10329 -14.86064 -14.25366
+ -13.97529 -13.36118 -12.60432 -12.29637 -10.48344 -10.26366  -9.62716  -0.65325
+  -0.26446   1.02190   1.99065   2.19421   3.38367   3.67588   3.98895   4.20674
+   4.56807   4.66963   4.93556   5.12019   5.29048   5.35632   5.42234   5.67825
+   5.78700   5.97827
+
+
+              NET ATOMIC CHARGES AND DIPOLE CONTRIBUTIONS
+
+  ATOM NO.   TYPE          CHARGE      No. of ELECS.   s-Pop       p-Pop       
+    1          C          -0.343211        4.3432     1.07636     3.26685
+    2          C           0.012157        3.9878     1.09330     2.89455
+    3          C          -0.254719        4.2547     1.07060     3.18411
+    4          C          -0.033999        4.0340     1.08863     2.94537
+    5          C          -0.273593        4.2736     1.07482     3.19877
+    6          C           0.334997        3.6650     1.08600     2.57900
+    7          O          -0.466063        6.4661     1.83696     4.62910
+    8          C           0.350722        3.6493     1.13223     2.51704
+    9          O          -0.442235        6.4422     1.87924     4.56299
+   10          H           0.167675        0.8323     0.83232
+   11          H           0.173380        0.8266     0.82662
+   12          H           0.152466        0.8475     0.84753
+   13          H           0.179986        0.8200     0.82001
+   14          H           0.332613        0.6674     0.66739
+   15          H           0.109824        0.8902     0.89018
+ DIPOLE           X         Y         Z       TOTAL
+ POINT-CHG.    -1.811     1.291    -0.001     2.224
+ HYBRID        -0.582    -0.475    -0.000     0.751
+ SUM           -2.393     0.816    -0.001     2.528
+
+
+          ATOMIC ORBITAL ELECTRON POPULATIONS
+
+     Atom    s        px        py        pz   
+    1  C   1.07636   1.03717   1.05882   1.17086
+    2  C   1.09330   0.98272   1.05646   0.85536
+    3  C   1.07060   1.02775   0.99991   1.15646
+    4  C   1.08863   1.00014   1.04332   0.90191
+    5  C   1.07482   1.01133   1.06385   1.12359
+    6  C   1.08600   0.76619   0.96579   0.84702
+    7  O   1.83696   1.28740   1.45198   1.88973
+    8  C   1.13223   0.90833   0.92828   0.68044
+    9  O   1.87924   1.73653   1.45182   1.37464
+   10  H   0.83232
+   11  H   0.82662
+   12  H   0.84753
+   13  H   0.82001
+   14  H   0.66739
+   15  H   0.89018
+ ******************** FINITE-FIELD POLARIZABILITIES ********************
+
+    THE F-F METHOD IS PERFORMED USING BOTH AN ENERGY
+    AND DIPOLE MOMENT EXPANSION.  THESE RESULTS ARE
+    LISTED BELOW AS "H.o.F." AND "Dipole", RESPECTIVELY.
+
+          MOLECULAR WEIGHT =  122.12
+
+
+
+          ROTATIONAL CONSTANTS IN CM(-1)
+
+          A =    0.16695528   B =    0.03391675   C =    0.02818999
+
+
+
+           PRINCIPAL MOMENTS OF INERTIA IN UNITS OF 10**(-40)*GRAM-CM**2
+
+          A =      167.6663   B =      825.3378   C =      993.0041
+
+
+ ROTATION MATRIX FOR ORIENTATION OF MOLECULE:
+
+         0.990222    0.139502    0.000027
+        -0.139502    0.990222    0.000014
+        -0.000025   -0.000018    1.000000
+
+
+          CARTESIAN COORDINATES 
+
+    NO.       ATOM         X         Y         Z
+
+     1         C       -0.9319   -1.2333   -0.0001
+     2         C        0.4453   -1.0393   -0.0000
+     3         C        0.9773    0.2533    0.0000
+     4         C        0.1301    1.3688   -0.0000
+     5         C       -1.2459    1.2025   -0.0001
+     6         C       -1.7557   -0.1043   -0.0000
+     7         O       -3.1064   -0.1915    0.0001
+     8         C        2.4399    0.4318    0.0000
+     9         O        3.2006   -0.5081    0.0000
+    10         H       -1.3513   -2.2331   -0.0001
+    11         H        1.1257   -1.8981   -0.0000
+    12         H        0.5529    2.3751    0.0000
+    13         H       -1.9287    2.0482   -0.0001
+    14         H       -3.4277   -1.1271   -0.0007
+    15         H        2.8297    1.4589    0.0000
+  SCF CRITERION =    0.1000E-05
+
+
+ ENERGY OF "REORIENTED" SYSTEM WITHOUT FIELD:      -52.33050 Kcal/mol
+
+
+ APPLIED ELECTRIC FIELD MAGNITUDE:         0.10284 VOLTS PER ANGSTROM
+    Step  1 of 36 done (+X)
+    Step  2 of 36 done (-X)
+    Step  3 of 36 done (+2X)
+    Step  4 of 36 done (-2X)
+    Step  5 of 36 done (+Y)
+    Step  6 of 36 done (-Y)
+    Step  7 of 36 done (+2Y)
+    Step  8 of 36 done (-2Y)
+    Step  9 of 36 done (+Y+X)
+    Step 10 of 36 done (+Y-X)
+    Step 11 of 36 done (-Y-X)
+    Step 12 of 36 done (-Y+X)
+    Step 13 of 36 done (+2Y+2X)
+    Step 14 of 36 done (+2Y-2X)
+    Step 15 of 36 done (-2Y-2X)
+    Step 16 of 36 done (-2Y+2X)
+    Step 17 of 36 done (+Z)
+    Step 18 of 36 done (-Z)
+    Step 19 of 36 done (+2Z)
+    Step 20 of 36 done (-2Z)
+    Step 21 of 36 done (+Z+X)
+    Step 22 of 36 done (+Z-X)
+    Step 23 of 36 done (-Z-X)
+    Step 24 of 36 done (-Z+X)
+    Step 25 of 36 done (+2Z+2X)
+    Step 26 of 36 done (+2Z-2X)
+    Step 27 of 36 done (-2Z-2X)
+    Step 28 of 36 done (-2Z+2X)
+    Step 29 of 36 done (+Z+Y)
+    Step 30 of 36 done (+Z-Y)
+    Step 31 of 36 done (-Z-Y)
+    Step 32 of 36 done (-Z+Y)
+    Step 33 of 36 done (+2Z+2Y)
+    Step 34 of 36 done (+2Z-2Y)
+    Step 35 of 36 done (-2Z-2Y)
+    Step 36 of 36 done (-2Z+2Y)
+
+
+ ****************************** DIPOLE ******************************
+
+
+                     H.o.F.         Dipole
+
+     X              0.977028       0.977029
+     Y             -0.186633      -0.186632
+     X              0.000573       0.000570
+
+
+ MAGNITUDE:         0.994694       0.994695  (A.U.)
+                    2.528260       2.528262  (DEBYE)
+
+
+ ****************************** POLARIZABILITY ********************
+
+
+
+ Polarizability Tensor from Heat of Formation:
+
+
+                     1          2          3
+ ------------------------------------------
+          1 111.544119
+          2  -4.767299  94.288339
+          3   0.001343   0.002641  65.447923
+
+
+
+
+    ROOT NO.    1           2           3
+
+            65.44792    93.05887   112.77359
+  
+         1  -0.00004     0.24973    -0.96832
+         2  -0.00010     0.96832     0.24973
+         3   1.00000     0.00010    -0.00001
+
+ Polarizability Tensor from Dipole Moment:
+
+
+                     1          2          3
+ ------------------------------------------
+          1 111.558315
+          2  -4.730586  94.282485
+          3  -0.039086   0.026286  65.447905
+
+
+
+
+    ROOT NO.    1           2           3
+
+            65.44785    93.07196   112.76889
+  
+         1   0.00077     0.24791    -0.96878
+         2  -0.00079     0.96878     0.24791
+         3   1.00000     0.00057     0.00094
+
+
+ Average Polarizability from:     H.o.F         Dipole
+                               90.426793      90.429568  A.U.
+                               13.399442      13.399853  ANG.**3
+                            2.679816D-23   2.679898D-23  ESU
+
+ **********************
+ *                    *
+ * JOB ENDED NORMALLY *
+ *                    *
+ **********************
+
+
+
+ TOTAL JOB TIME:             0.41 SECONDS
+
+ == MOPAC DONE ==
