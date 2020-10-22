@@ -16,3 +16,5 @@ TA_DSC_2500_data_files contains the raw DSC data that is used in the sub-cooled 
 KEMS_MOPAC2016_files contains MOPAC files that were used to estimate the partial charges of the atoms within the molecules of the studied compounds as well as the polarisability of the molecules.
 
 The Excel spreadsheet contains all calculated solid state and sub-cooled saturation vapour pressures.
+
+[![DOI](https://zenodo.org/badge/306290521.svg)](https://zenodo.org/badge/latestdoi/306290521) Citation: Shelley et al., (2020) Measured_solid_state_and_sub_cooled_liquid_vapour_pressures_of_benzaldehydes_using_KEMS_data_set, Zenodo, https://zenodo.org/badge/latestdoi/306290521
